@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'kdamfont';
+    src: url('KdamThmorPro-Regular.ttf') format('ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.card-body {
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+.card-image {
+   position: absolute;
+   width: 700px;
+   height: 100%;
+   z-index: -1;
+}
+
+.card-text {
+    font-family: kdamfont, Roboto;
+    font-size: 5rem;
+}
+
+.wrapper {
+    width: 700px;
+    position: absolute; 
+    font-size: small;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    top: 95%; 
+}
